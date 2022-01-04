@@ -7,260 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1034" Width="800">
     <Grid>
-        <Grid HorizontalAlignment="Left" Width="400" Margin="0,10,0,0">
-            <Rectangle x:Name="C1_1" HorizontalAlignment="Left" Height="80" Margin="15,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <Rectangle x:Name="C1_2" HorizontalAlignment="Left" Height="80" Margin="106,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <Rectangle x:Name="C1_3" HorizontalAlignment="Left" Height="80" Margin="197,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <Rectangle x:Name="C1_4" HorizontalAlignment="Left" Height="80" Margin="288,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_1" HorizontalAlignment="Left" Height="19" Margin="15,52,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <ComboBox x:Name="S1_2" HorizontalAlignment="Left" Height="19" Margin="106,52,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c2">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <ComboBox x:Name="S1_3" HorizontalAlignment="Left" Height="19" Margin="197,52,0,0" VerticalAlignment="Top" Width="86" >
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <ComboBox x:Name="S1_4" HorizontalAlignment="Left" Height="19" Margin="288,52,0,0" VerticalAlignment="Top" Width="86"  >
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy5" HorizontalAlignment="Left" Height="80" Margin="197,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <Rectangle x:Name="C1_Copy3" HorizontalAlignment="Left" Height="80" Margin="15,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy3" HorizontalAlignment="Left" Height="19" Margin="15,158,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy4" HorizontalAlignment="Left" Height="80" Margin="106,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy4" HorizontalAlignment="Left" Height="19" Margin="106,158,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <ComboBox x:Name="S1_Copy5" HorizontalAlignment="Left" Height="19" Margin="197,158,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy6" HorizontalAlignment="Left" Height="80" Margin="288,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy6" HorizontalAlignment="Left" Height="19" Margin="288,158,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy7" HorizontalAlignment="Left" Height="80" Margin="15,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy7" HorizontalAlignment="Left" Height="19" Margin="15,264,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy8" HorizontalAlignment="Left" Height="80" Margin="106,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy8" HorizontalAlignment="Left" Height="19" Margin="106,264,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy9" HorizontalAlignment="Left" Height="80" Margin="197,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy9" HorizontalAlignment="Left" Height="19" Margin="197,264,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy10" HorizontalAlignment="Left" Height="80" Margin="288,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy10" HorizontalAlignment="Left" Height="19" Margin="288,264,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy11" HorizontalAlignment="Left" Height="80" Margin="15,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy11" HorizontalAlignment="Left" Height="19" Margin="15,370,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy12" HorizontalAlignment="Left" Height="80" Margin="106,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy12" HorizontalAlignment="Left" Height="19" Margin="106,370,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy13" HorizontalAlignment="Left" Height="80" Margin="197,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy13" HorizontalAlignment="Left" Height="19" Margin="197,370,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy14" HorizontalAlignment="Left" Height="80" Margin="288,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy14" HorizontalAlignment="Left" Height="19" Margin="288,370,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy15" HorizontalAlignment="Left" Height="80" Margin="197,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <Rectangle x:Name="C1_Copy16" HorizontalAlignment="Left" Height="80" Margin="15,500,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy15" HorizontalAlignment="Left" Height="18" Margin="15,480,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy17" HorizontalAlignment="Left" Height="80" Margin="106,500,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy16" HorizontalAlignment="Left" Height="18" Margin="106,480,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy18" HorizontalAlignment="Left" Height="80" Margin="197,500,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy17" HorizontalAlignment="Left" Height="18" Margin="197,480,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy19" HorizontalAlignment="Left" Height="80" Margin="288,500,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy18" HorizontalAlignment="Left" Height="18" Margin="288,480,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy20" HorizontalAlignment="Left" Height="80" Margin="15,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy19" HorizontalAlignment="Left" Height="18" Margin="15,586,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy21" HorizontalAlignment="Left" Height="80" Margin="106,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy20" HorizontalAlignment="Left" Height="18" Margin="106,586,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <ComboBox x:Name="S1_Copy21" HorizontalAlignment="Left" Height="18" Margin="197,586,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy22" HorizontalAlignment="Left" Height="80" Margin="288,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy22" HorizontalAlignment="Left" Height="18" Margin="288,586,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy23" HorizontalAlignment="Left" Height="80" Margin="15,712,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy23" HorizontalAlignment="Left" Height="18" Margin="15,692,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy24" HorizontalAlignment="Left" Height="80" Margin="106,712,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy24" HorizontalAlignment="Left" Height="18" Margin="106,692,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy25" HorizontalAlignment="Left" Height="80" Margin="197,712,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy25" HorizontalAlignment="Left" Height="18" Margin="197,692,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy26" HorizontalAlignment="Left" Height="80" Margin="288,712,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy26" HorizontalAlignment="Left" Height="18" Margin="288,692,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy27" HorizontalAlignment="Left" Height="80" Margin="15,818,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy27" HorizontalAlignment="Left" Height="18" Margin="15,798,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy28" HorizontalAlignment="Left" Height="80" Margin="106,818,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy28" HorizontalAlignment="Left" Height="18" Margin="106,798,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy29" HorizontalAlignment="Left" Height="80" Margin="197,818,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy29" HorizontalAlignment="Left" Height="18" Margin="197,798,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy30" HorizontalAlignment="Left" Height="80" Margin="288,818,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8" IsEnabled="False"/>
-            <ComboBox x:Name="S1_Copy30" HorizontalAlignment="Left" Height="18" Margin="288,798,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy31" HorizontalAlignment="Left" Height="80" Margin="15,923,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy31" HorizontalAlignment="Left" Height="18" Margin="15,903,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy32" HorizontalAlignment="Left" Height="80" Margin="106,923,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8" IsEnabled="False"/>
-            <ComboBox x:Name="S1_Copy32" HorizontalAlignment="Left" Height="18" Margin="106,903,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy33" HorizontalAlignment="Left" Height="80" Margin="197,923,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy33" HorizontalAlignment="Left" Height="18" Margin="197,903,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-            <Rectangle x:Name="C1_Copy34" HorizontalAlignment="Left" Height="80" Margin="288,923,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
-            <ComboBox x:Name="S1_Copy34" HorizontalAlignment="Left" Height="18" Margin="288,903,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False">
-                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
-                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
-                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
-                <ComboBoxItem Background="Yellow" Content="Yellow"/>
-            </ComboBox>
-        </Grid>
         <Grid HorizontalAlignment="Left" Height="1018" Margin="400,0,0,0" VerticalAlignment="Center" Width="400">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1
@@ -307,8 +53,265 @@
             <Rectangle HorizontalAlignment="Center" Height="101" Margin="0,699,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FF898989" Grid.Column="3"/>
         </Grid>
         <Grid HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800">
-            <Button x:Name="chl" Content="Check lane" HorizontalAlignment="Left" Height="50" Margin="632,0,0,0" VerticalAlignment="Top" Width="168" Background="#FFA0A0A0" BorderBrush="{x:Null}" Foreground="Black"/>
+            <Button x:Name="chl" Content="Check lane" Height="50" Margin="632,0,0,0" VerticalAlignment="Top" Background="#FFA0A0A0" BorderBrush="{x:Null}" Foreground="Black" HorizontalAlignment="Left" Width="168" Click="chl_Click"/>
             <Button x:Name="res" Content="Restart" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="101" Background="#FFA0A0A0" BorderBrush="{x:Null}" Foreground="Black"/>
+            <Button x:Name="test" Content="Button" HorizontalAlignment="Left" Height="40" Margin="251,0,0,0" VerticalAlignment="Center" Width="95" Click="Button_Click"/>
+            <Label x:Name="_12" Content="Label" HorizontalAlignment="Left" Height="40" Margin="446,0,0,0" VerticalAlignment="Center" Width="114"/>
+        </Grid>
+        <ScrollBar HorizontalAlignment="Left" Height="958" Margin="0,60,0,0" VerticalAlignment="Top" Width="395"/>
+        <Grid HorizontalAlignment="Left" Width="400" Margin="0,10,0,0">
+            <Rectangle x:Name="C1_1a" HorizontalAlignment="Left" Height="80" Margin="15,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a" HorizontalAlignment="Left" Height="80" Margin="106,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a" HorizontalAlignment="Left" Height="80" Margin="197,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a" HorizontalAlignment="Left" Height="80" Margin="288,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1" HorizontalAlignment="Left" Height="19" Margin="15,52,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2" HorizontalAlignment="Left" Height="19" Margin="106,52,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3" HorizontalAlignment="Left" Height="19" Margin="197,52,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4" HorizontalAlignment="Left" Height="19" Margin="288,52,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy" HorizontalAlignment="Left" Height="80" Margin="15,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy" HorizontalAlignment="Left" Height="80" Margin="106,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy" HorizontalAlignment="Left" Height="80" Margin="197,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy" HorizontalAlignment="Left" Height="80" Margin="288,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy" HorizontalAlignment="Left" Height="19" Margin="15,158,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy" HorizontalAlignment="Left" Height="19" Margin="106,158,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy" HorizontalAlignment="Left" Height="19" Margin="197,158,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy" HorizontalAlignment="Left" Height="19" Margin="288,158,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy1" HorizontalAlignment="Left" Height="80" Margin="15,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy1" HorizontalAlignment="Left" Height="80" Margin="106,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy1" HorizontalAlignment="Left" Height="80" Margin="197,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy1" HorizontalAlignment="Left" Height="80" Margin="288,285,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy1" HorizontalAlignment="Left" Height="19" Margin="15,264,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy1, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy1" HorizontalAlignment="Left" Height="19" Margin="106,264,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy1, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy1" HorizontalAlignment="Left" Height="19" Margin="197,264,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy1" HorizontalAlignment="Left" Height="19" Margin="288,264,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy2" HorizontalAlignment="Left" Height="80" Margin="15,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy2" HorizontalAlignment="Left" Height="80" Margin="106,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy2" HorizontalAlignment="Left" Height="80" Margin="197,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy2" HorizontalAlignment="Left" Height="80" Margin="288,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy2" HorizontalAlignment="Left" Height="19" Margin="15,370,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy2, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy2" HorizontalAlignment="Left" Height="19" Margin="106,370,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy2, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy2" HorizontalAlignment="Left" Height="19" Margin="197,370,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy2, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy2" HorizontalAlignment="Left" Height="19" Margin="288,370,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy2, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy3" HorizontalAlignment="Left" Height="80" Margin="15,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy3" HorizontalAlignment="Left" Height="80" Margin="106,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy3" HorizontalAlignment="Left" Height="80" Margin="197,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy3" HorizontalAlignment="Left" Height="80" Margin="288,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy3" HorizontalAlignment="Left" Height="19" Margin="15,485,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy3, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy3" HorizontalAlignment="Left" Height="19" Margin="106,485,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy3, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy3" HorizontalAlignment="Left" Height="19" Margin="197,485,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy3, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy3" HorizontalAlignment="Left" Height="19" Margin="288,485,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy3, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy4" HorizontalAlignment="Left" Height="80" Margin="15,612,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy4" HorizontalAlignment="Left" Height="80" Margin="106,612,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy4" HorizontalAlignment="Left" Height="80" Margin="197,612,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy4" HorizontalAlignment="Left" Height="80" Margin="288,612,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy4" HorizontalAlignment="Left" Height="19" Margin="15,591,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy4, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy4" HorizontalAlignment="Left" Height="19" Margin="106,591,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy4, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy4" HorizontalAlignment="Left" Height="19" Margin="197,591,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy4, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy4" HorizontalAlignment="Left" Height="19" Margin="288,591,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy4, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy5" HorizontalAlignment="Left" Height="80" Margin="15,718,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy5" HorizontalAlignment="Left" Height="80" Margin="106,718,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy5" HorizontalAlignment="Left" Height="80" Margin="197,718,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy5" HorizontalAlignment="Left" Height="80" Margin="288,718,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy5" HorizontalAlignment="Left" Height="19" Margin="15,697,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy5, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy5" HorizontalAlignment="Left" Height="19" Margin="106,697,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy5, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy5" HorizontalAlignment="Left" Height="19" Margin="197,697,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy5, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy5" HorizontalAlignment="Left" Height="19" Margin="288,697,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy5, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy6" HorizontalAlignment="Left" Height="80" Margin="15,824,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy6" HorizontalAlignment="Left" Height="80" Margin="106,824,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy6" HorizontalAlignment="Left" Height="80" Margin="197,824,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy6" HorizontalAlignment="Left" Height="80" Margin="288,824,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy6" HorizontalAlignment="Left" Height="19" Margin="15,803,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy6, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy6" HorizontalAlignment="Left" Height="19" Margin="106,803,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy6, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy6" HorizontalAlignment="Left" Height="19" Margin="197,803,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy6, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy6" HorizontalAlignment="Left" Height="19" Margin="288,803,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy6, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <Rectangle x:Name="C1_1a_Copy7" HorizontalAlignment="Left" Height="80" Margin="15,930,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_2a_Copy7" HorizontalAlignment="Left" Height="80" Margin="106,930,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_3a_Copy7" HorizontalAlignment="Left" Height="80" Margin="197,930,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <Rectangle x:Name="C1_4a_Copy7" HorizontalAlignment="Left" Height="80" Margin="288,930,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
+            <ComboBox x:Name="S1_1_Copy7" HorizontalAlignment="Left" Height="19" Margin="15,909,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_1a_Copy7, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_2_Copy7" HorizontalAlignment="Left" Height="19" Margin="106,909,0,0" VerticalAlignment="Top" Width="86"  SelectionChanged="c1" Tag="{Binding ElementName=C1_2a_Copy7, Mode=OneWay}" IsEnabled="False">
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_3_Copy7" HorizontalAlignment="Left" Height="19" Margin="197,909,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_3a_Copy7, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False" >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
+            <ComboBox x:Name="S1_4_Copy7" HorizontalAlignment="Left" Height="19" Margin="288,909,0,0" VerticalAlignment="Top" Width="86" Tag="{Binding ElementName=C1_4a_Copy7, Mode=OneWay}" SelectionChanged="c1" IsEnabled="False"  >
+                <ComboBoxItem Background="#FFF90000" Content="Red" IsSelected="True"/>
+                <ComboBoxItem Background="#FF00FF0C" Content="Green"/>
+                <ComboBoxItem Background="#FFD100FF" Content="Pink"/>
+                <ComboBoxItem Background="Yellow" Content="Yellow"/>
+            </ComboBox>
         </Grid>
 
     </Grid>
