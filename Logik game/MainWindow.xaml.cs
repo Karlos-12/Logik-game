@@ -53,9 +53,9 @@ namespace Logik_game
             }
         }
 
-       private void c2(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+       private void c1(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
        {
-           var (ComboBox)sender
+            var s = (ComboBox)sender;
            if (S1_2.SelectedIndex == 0)
            {
                C1_2.Fill = _1;
