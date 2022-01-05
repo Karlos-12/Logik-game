@@ -24,6 +24,10 @@ namespace Logik_game
         SolidColorBrush _3 = new SolidColorBrush();
         SolidColorBrush _4 = new SolidColorBrush();
 
+        SolidColorBrush rh = new SolidColorBrush();
+        SolidColorBrush nh = new SolidColorBrush();
+
+
 
         public MainWindow()
         {
@@ -34,6 +38,8 @@ namespace Logik_game
             _3.Color = Color.FromRgb(134, 1, 175);
             _4.Color = Color.FromRgb(255, 255, 0);
 
+            rh.Color = Color.FromRgb(0, 0, 0);
+            nh.Color = Color.FromRgb(255, 255, 255);
 
         }
 
@@ -78,10 +84,10 @@ namespace Logik_game
             S1_3.IsEnabled = true;
             S1_4.IsEnabled = true;
             Random rn = new Random();
-            rn1 = rn.Next(4);
-            rn2 = rn.Next(4);
-            rn3 = rn.Next(4);
-            rn4 = rn.Next(4);
+            rn1 = rn.Next(3);
+            rn2 = rn.Next(3);
+            rn3 = rn.Next(3);
+            rn4 = rn.Next(3);
 
             alcol = rn1.ToString() + rn2.ToString() + rn3.ToString() + rn4.ToString();
             _12.Content = alcol;
@@ -205,27 +211,53 @@ namespace Logik_game
         }
 
         public void check2()
+
         {
-            if (rn1 == (S1_1.SelectedIndex + 1))
+            int contorl = 4;
+
+            if (alcol.Contains((S1_1.SelectedIndex).ToString()))
             {
+                _1a.Fill = nh;
+            }
+            if (alcol.Contains((S1_2.SelectedIndex).ToString()))
+            {
+                _2a.Fill = nh;
+            }
+            if (alcol.Contains((S1_3.SelectedIndex).ToString()))
+            {
+                _3a.Fill = nh;
+            }
+            if (alcol.Contains((S1_4.SelectedIndex).ToString()))
+            {
+                _4a.Fill = nh;
+            }
+
+            if (rn1 == (S1_1.SelectedIndex))
+            {
+                contorl--;
+                _1a.Fill = rh;
+            }
+            if (rn2 == (S1_2.SelectedIndex))
+            {
+                contorl--;
+                _2a.Fill = rh;
+            }
+            if (rn3 == (S1_3.SelectedIndex))
+            {
+                contorl--;
+                _3a.Fill = rh;
+            }
+            if (rn4 == (S1_4.SelectedIndex))
+            {
+                contorl--;
+                _4a.Fill = rh;
+            }
+            if (contorl == 0)
+            {
+                win();
 
             }
-            if (rn2 == (S1_2.SelectedIndex + 1))
-            {
 
-            }
-            if (rn3 == (S1_3.SelectedIndex + 1))
-            {
-
-            }
-            if (rn4 == (S1_4.SelectedIndex + 1))
-            {
-
-            }
-            if(alcol.Contains(S1_1.SelectedIndex.ToString()))
-            {
-
-            }
 
         }
         public void check3()
@@ -258,6 +290,13 @@ namespace Logik_game
         }
         public void check10()
         {
+
+        }
+
+
+        public void win()
+        {
+            MessageBox.Show("You won!");
 
         }
 
