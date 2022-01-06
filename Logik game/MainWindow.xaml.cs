@@ -54,7 +54,7 @@ namespace Logik_game
 
             var r = (Rectangle)s.Tag;
 
-            if (round == 2)
+            if (round >= 2)
             {
                 if (s.SelectedIndex == 0)
                 {
@@ -213,84 +213,708 @@ namespace Logik_game
         public void check2()
 
         {
-            int contorl = 4;
+            int contorl1 = 0;
+            int contorl2 = 0;
 
             if (alcol.Contains((S1_1.SelectedIndex).ToString()))
             {
-                _1a.Fill = nh;
+                contorl2++;
             }
             if (alcol.Contains((S1_2.SelectedIndex).ToString()))
             {
-                _2a.Fill = nh;
+                contorl2++;
             }
             if (alcol.Contains((S1_3.SelectedIndex).ToString()))
             {
-                _3a.Fill = nh;
+                contorl2++;
             }
             if (alcol.Contains((S1_4.SelectedIndex).ToString()))
             {
-                _4a.Fill = nh;
+                contorl2++;
             }
 
             if (rn1 == (S1_1.SelectedIndex))
             {
-                contorl--;
-                _1a.Fill = rh;
+                contorl1++;
             }
             if (rn2 == (S1_2.SelectedIndex))
             {
-                contorl--;
-                _2a.Fill = rh;
+                contorl1++;
             }
             if (rn3 == (S1_3.SelectedIndex))
             {
-                contorl--;
-                _3a.Fill = rh;
+                contorl1++;
             }
             if (rn4 == (S1_4.SelectedIndex))
             {
-                contorl--;
-                _4a.Fill = rh;
+                contorl1++;
             }
-            if (contorl == 0)
+            if (contorl1 == 4)
             {
                 win();
-
             }
+            if (contorl2 > 0)
+            {
+                _1a.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2a.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3a.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4a.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1a.Fill = rh;
+                if(contorl1 > 1)
+                {
+                    _2a.Fill = rh;
+                    if(contorl1 < 2)
+                    {
+                        _3a.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4a.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
 
 
         }
         public void check3()
         {
 
+            int contorl1 = 0;
+            int contorl2 = 0;
+
+
+            if (alcol.Contains((S1_1_Copy.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1b.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2b.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3b.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4b.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1b.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2b.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3b.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4b.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check4()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+            if (alcol.Contains((S1_1_Copy1.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy1.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy1.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy1.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy1.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy1.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy1.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy1.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1c.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2c.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3c.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4c.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1c.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2c.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3c.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4c.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check5()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+            if (alcol.Contains((S1_1_Copy2.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy2.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy2.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy2.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy2.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy2.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy2.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy2.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1d.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2d.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3d.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4d.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1d.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2d.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3d.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4d.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check6()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+            if (alcol.Contains((S1_1_Copy3.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy3.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy3.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy3.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy3.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy3.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy3.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy3.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1e.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2e.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3e.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4e.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1e.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2e.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3e.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4e.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check7()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+            if (alcol.Contains((S1_1_Copy4.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy4.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy4.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy4.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy4.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy4.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy4.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy4.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1f.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2f.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3f.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4f.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1f.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2f.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3f.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4f.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check8()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+
+            if (alcol.Contains((S1_1_Copy5.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy5.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy5.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy5.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy5.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy5.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy5.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy5.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1g.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2g.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3g.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4g.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1g.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2g.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3g.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4g.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
         public void check9()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+
+            if (alcol.Contains((S1_1_Copy6.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy6.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy6.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy6.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy6.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy6.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy6.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy6.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1h.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2h.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3h.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4h.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1h.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2h.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3h.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4h.Fill = rh;
+                        }
+                    }
+                }
+            }
+           
         }
         public void check10()
         {
+            int contorl1 = 0;
+            int contorl2 = 0;
 
+
+            if (alcol.Contains((S1_1_Copy7.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_2_Copy7.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_3_Copy7.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+            if (alcol.Contains((S1_4_Copy7.SelectedIndex).ToString()))
+            {
+                contorl2++;
+            }
+
+            if (rn1 == (S1_1_Copy7.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn2 == (S1_2_Copy7.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn3 == (S1_3_Copy7.SelectedIndex))
+            {
+                contorl1++;
+            }
+            if (rn4 == (S1_4_Copy7.SelectedIndex))
+            {
+                contorl1++;
+            }
+
+
+            if (contorl1 == 4)
+            {
+                win();
+            }
+            if (contorl2 > 0)
+            {
+                _1i.Fill = nh;
+                if (contorl2 > 1)
+                {
+                    _2i.Fill = nh;
+                    if (contorl2 < 2)
+                    {
+                        _3i.Fill = nh;
+                        if (contorl2 > 3)
+                        {
+                            _4i.Fill = nh;
+                        }
+                    }
+                }
+            }
+            if (contorl1 > 0)
+            {
+                _1i.Fill = rh;
+                if (contorl1 > 1)
+                {
+                    _2i.Fill = rh;
+                    if (contorl1 < 2)
+                    {
+                        _3i.Fill = rh;
+                        if (contorl1 > 3)
+                        {
+                            _4i.Fill = rh;
+                        }
+                    }
+                }
+            }
+            
         }
 
 
