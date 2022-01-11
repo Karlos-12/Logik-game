@@ -259,7 +259,7 @@ namespace Logik_game
                 if (contorl2 > 1)
                 {
                     _2a.Fill = nh;
-                    if (contorl2 < 2)
+                    if (contorl2 > 2)
                     {
                         _3a.Fill = nh;
                         if (contorl2 > 3)
@@ -275,7 +275,7 @@ namespace Logik_game
                 if(contorl1 > 1)
                 {
                     _2a.Fill = rh;
-                    if(contorl1 < 2)
+                    if(contorl1 > 2)
                     {
                         _3a.Fill = rh;
                         if (contorl1 > 3)
@@ -923,7 +923,5 @@ namespace Logik_game
             MessageBox.Show("You won!");
 
         }
-
-
     }
 }

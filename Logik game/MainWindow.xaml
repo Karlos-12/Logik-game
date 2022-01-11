@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Logik_game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1034" Width="800">
+        Title="MainWindow" Height="1056" Width="800">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="1018" Margin="400,0,0,0" VerticalAlignment="Center" Width="400">
+        <Grid HorizontalAlignment="Left" Height="1018" Margin="400,0,0,0" VerticalAlignment="Top" Width="400">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1
                                   *"/>
@@ -52,13 +52,12 @@
             <Rectangle x:Name="_3g" HorizontalAlignment="Center" Height="101" Margin="0,699,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FF898989" Grid.Column="2"/>
             <Rectangle x:Name="_4g" HorizontalAlignment="Center" Height="101" Margin="0,699,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FF898989" Grid.Column="3"/>
         </Grid>
-        <Grid HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800">
+        <Grid HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="800">
             <Button x:Name="chl" Content="Check lane" Height="50" Margin="632,0,0,0" VerticalAlignment="Top" Background="#FFA0A0A0" BorderBrush="{x:Null}" Foreground="Black" HorizontalAlignment="Left" Width="168" Click="chl_Click" />
             <Button x:Name="res" Content="Restart" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="101" Background="#FFA0A0A0" BorderBrush="{x:Null}" Foreground="Black"/>
-            <Button x:Name="test" Content="Button" HorizontalAlignment="Left" Height="40" Margin="251,0,0,0" VerticalAlignment="Center" Width="95" Click="Button_Click"/>
-            <Label x:Name="_12" Content="Label" HorizontalAlignment="Left" Height="40" Margin="446,0,0,0" VerticalAlignment="Center" Width="114"/>
+            <Button x:Name="test" Content="Start" HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="154" Click="Button_Click" BorderBrush="{x:Null}" Foreground="Black" Background="#FFA0A0A0"/>
+            <Label x:Name="_12" Content="Label" HorizontalAlignment="Left" Height="40" Margin="513,30,0,0" VerticalAlignment="Top" Width="114"/>
         </Grid>
-        <ScrollBar HorizontalAlignment="Left" Height="958" Margin="0,60,0,0" VerticalAlignment="Top" Width="395"/>
         <Grid HorizontalAlignment="Left" Width="400" Margin="0,10,0,0">
             <Rectangle x:Name="C1_1a" HorizontalAlignment="Left" Height="80" Margin="15,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
             <Rectangle x:Name="C1_2a" HorizontalAlignment="Left" Height="80" Margin="106,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="86" Fill="#FFA8A8A8"/>
